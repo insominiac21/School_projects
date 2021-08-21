@@ -1,0 +1,2 @@
+y=int(input("enter your age in years "))
+print('Your age after 10 years will be',y+10)
