@@ -1,0 +1,23 @@
+n=int(input("How may characters do you want? "))
+sml=0
+bg=0
+dig=0
+misc=0
+for i  in range(n):
+    print("give the character ")
+    
+
+    b=ord(input())
+    if b>=97 and b<=122:
+        sml=sml+1 
+    elif b>=65 and b<=90:
+        bg=bg+1
+    elif b>=48 and b<=57:
+        dig=dig+1
+    elif b>=32 and b<=47 or b>=58 and b<=64 or b>=91 and b<=96 or b>=123 and b<=126 :
+        misc=misc+1
+        
+print("no. of lower case characters are ",sml)        
+print("no. of upper case characters are ",bg)
+print("no. of digits are ",sml)
+print("no. of special characters are characters are ",misc)
