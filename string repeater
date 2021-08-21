@@ -1,0 +1,3 @@
+y=input("enter a string: ")
+x=len(y)
+print("Result ", y*x)
