@@ -1,0 +1,54 @@
+n=int(input("enter a num "))
+
+if n>=2000:
+    a1=n//2000
+    r1=n%2000
+    print("In ",n,"no. of Rs2000 notes are: ",a1)  
+else:
+    r1 =n
+    print("In ",n,"no. of Rs2000 notes are:0 ")  
+if r1>=500:
+    a2=r1//500
+    r2=r1%500
+    print("no. of Rs 500 notes are: ",a2)
+else:
+    r2=r1
+    print("no. of Rs 500 notes are:0 ")
+if r2>=100:
+    a3=r2//500
+    r3=r2%500
+    print("no. of Rs 100 notes are: ",a3)
+else:
+    r3=r2
+    print("no. of Rs 100 notes are:0 ")
+if r3>=50:
+    a4=r3//50
+    r4=r3%50
+    print("no. of Rs 50 notes are: ",a4)  
+else:
+    r4=r3
+    print("no. of Rs 50 notes are:0 ")  
+if r4>=20:
+    a5=r4//20
+    r5=r4%20
+    
+    print("no. of Rs 20 notes are: ",a5)
+else:
+    r5=r4 
+    
+    print("no. of Rs 20 notes are:0 ")
+if r5>=10:
+    a6=r5//10
+    r6=r5%10
+    print("no. of Rs 10 notes are: ",a6)  
+else:
+    r6=r5 
+    print("no. of Rs 10 notes are:0 ")  
+if r6>=1:
+    a7=r6//1
+    r7=r6%1
+    print("no. of Rs 1 notes are: ",a7)
+
+else:
+    print("no. of Rs 1 notes are:0 ")
+  
