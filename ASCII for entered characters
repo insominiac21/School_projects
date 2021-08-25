@@ -19,5 +19,5 @@ for i  in range(n):
         
 print("no. of lower case characters are ",sml)        
 print("no. of upper case characters are ",bg)
-print("no. of digits are ",sml)
+print("no. of digits are ",dig)
 print("no. of special characters are characters are ",misc)
