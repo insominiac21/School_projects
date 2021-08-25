@@ -1,0 +1,7 @@
+#code for choosing 3 students on basis of roll no.
+import random
+s1=random.randint(1,100)
+s2=random.randint(1,100)
+s3=random.randint(1,100)
+print("The chosen students are: ")
+print(s1,s2,s3)
