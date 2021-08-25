@@ -1,0 +1,4 @@
+m=float(input("enter mass of object"))
+c=300000000
+e=m*c*c
+print(e)
