@@ -1,4 +1,4 @@
-n=int(input("How may characters do you want? "))
+n=int(input("How many characters do you want? "))
 sml=0
 bg=0
 dig=0
